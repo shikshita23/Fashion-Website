@@ -1,0 +1,4 @@
+$custom-primary:#224F34;
+
+@import 'C:\Users\HP\Downloads\bootstrap-5.3.2.zip/bootstrap';
+$primary: $custom-primary;
