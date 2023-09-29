@@ -2,11 +2,11 @@
     line-height: 50px;
     font-size: x-large;
     font-family: Rufina;
+    color: #224F34;
 }
 .arrow{
     width: 30px;
     height: 30px;
-    padding-left: 8px;
     color: #224F34;
     border-radius: 3px;
 }
@@ -30,7 +30,6 @@
     margin-top: 15px;
     line-height: 30px;
 }
-
 .exclusive-design__description{
     width: auto;
     color: #224F34;
@@ -56,6 +55,7 @@
     border: 1px solid #224F34;
     pointer-events: none;
     margin-top:50px;
+    color: #224F34;
 }
 .hero {
     background-color: #C2EFD4;
@@ -75,13 +75,14 @@ hr {
     width: 400px;
     height: 500px;
     border-radius: 100px 30px 100px 30px;
+    background-color: #6BC785;
+    margin-top: 100px;
 }
 .section-content__description {
     color: #6F6F6F;
     font-size: 14px;
     line-height: 24px;
 }
-
 @media (min-width: 300px) and (max-width: 576px) {
     .girl1 {
         width: 250px;
@@ -89,31 +90,25 @@ hr {
         border-radius: 70px 30px 70px 30px;
     }
 }
-.textdark {
-    color: #224F34;
-}
 .image__description {
     font-size: 16px;
     font-weight: 500;
     color: #373737;
     padding: 15px 30px 0px 40px;
 }
-.font-28 {
+.exclusive-design__count {
     font-size: 28px;
     font-weight: 500;
 }
 .font-14 {
     font-size: 14px;
 }
-.backgreen {
-    background-color: #6BC785;
-    margin-top: 100px;
-}
 .hero__button{
-    margin-bottom: 120px;
-    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-top: 40px;
+    background-color: #224F34 ;
 }
-.darkgreen {
+.container-fluid{
     background-color: #224F34;
 }
 .section__image1 {
@@ -121,10 +116,9 @@ hr {
     width: 330px;
 }
 .section__image2{
-    width: 330px;
     background-color: #A9D4BA;
+    width: 330px;
 }
-
 .section__image3 {
     background-color: #CADCD0;
     width: 330px;
@@ -134,11 +128,7 @@ hr {
     height: 450px;
     background-color: #D3E2D7;
 }
-.designer-clothes__image2{
-    width:340px;
-    height: 450px;
-}
-.designer-clothes__image3{
+.designer-clothes__image2, .designer-clothes__image3{
     width:340px;
     height: 450px;
 }
@@ -148,7 +138,9 @@ hr {
     font-size: 20px;
     line-height: 50px;
 }
-
+.section__navigation li{
+    color: #224F34;
+}
 .hero-text__title {
     font-family: Rufina;
     font-size: 75px;
@@ -192,9 +184,9 @@ hr {
     width: 250px;
     height: 280px;
 }
-.roboto-slab {
+.footer_title{
     font-family: Roboto Slab;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
 }
 @media (min-width: 300px) and (max-width: 768px) {
@@ -215,11 +207,7 @@ hr {
         height: 450px;
         background-color: #D3E2D7;
     }
-    .designer-clothes__image2{
-        width:340px;
-        height: 450px;
-    }
-    .designer-clothes__image3{
+    .designer-clothes__image2, .designer-clothes__image3{
         width:340px;
         height: 450px;
     }
@@ -231,7 +219,15 @@ hr {
         line-height: 25px;
         margin-top: 33px;
     }
-    .section__image1,.section__image2, .section__image3 {
+    .section__image1  {
+        width: 200px;
+        height: 250px;
+    }
+    .section__image2{
+        width: 200px;
+        height: 250px;
+    }
+    .section__image3{
         width: 200px;
         height: 250px;
     }
@@ -247,7 +243,6 @@ hr {
         font-size: 7px;
         line-height: 20px;
     }
-   
     .exclusive-design__title{
         font-size: 30px;
     }
@@ -264,7 +259,7 @@ hr {
         padding-left: 5px;
         padding-right: 5px;
     }
-    .font-28 {
+    .exclusive-design__number {
         font-size: 22px;
     }
     .best-sell p {
@@ -273,7 +268,7 @@ hr {
     .best-sell h5 {
         font-size: 17px;
     }
-    .foot-color {
+    .footer-list {
         font-size: 12px;
     }
     .footer__contentr p {
@@ -293,6 +288,7 @@ hr {
     .footer__button{
         width: 60px;
         font-size: 11px;
+        color: #224F34;
     }
     .hr ul{
         font-size: 10px;
@@ -310,7 +306,7 @@ hr {
     .exclusive-design{
         margin-top:90px;
     }
-    .our-product__image1,
+.our-product__image1,
 .our-product__image2,
 .our-product__image3,
 .our-product__image4,
@@ -399,9 +395,7 @@ hr {
     .designer-clothes__image1, .designer-clothes__image2, .designer-clothes__image3{
         width:310px;
         height: 375px;
-    }
-
-    
+    }  
 }
 @media (min-width:992px) and (max-width:1200px){
     .footer__email{
@@ -420,7 +414,6 @@ hr {
         width: 260px;
         background-color: #A9D4BA;
     }
-    
     .section__image3 {
         background-color: #CADCD0;
         width: 260px;
@@ -446,9 +439,7 @@ hr {
         background-color: #CADCD0;
         width: 280px;
     }
-
 }
-
 body {
     font-family: poppins;
 }
@@ -469,7 +460,6 @@ li {
 a {
     text-decoration: none;
 }
-
 .our-product__image8 {
     background-color: #DDECE2;
 }
@@ -477,8 +467,6 @@ a {
     max-width: 400px;
     max-height: 500px;
 }
-
-
 .vertical-line {
     border-left: 1px solid #454545;
     padding-right: 15px;
@@ -486,13 +474,10 @@ a {
 .our-product {
     margin-top: 70px;
 }
-
 .section-content__title {
     font-family: Roboto Serif;
     color: #224F34;
 }
-
-
-.foot-color {
+.footer-list {
     color: #C2EFD4;
 }
