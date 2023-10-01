@@ -4,14 +4,19 @@
     font-family: Rufina;
     color: #224F34;
 }
+
 .arrow{
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     color: #224F34;
     border-radius: 3px;
+    padding: 8px 10px 10px 10px;
 }
 .arrow:hover{
     background-color:#C2EFD4 ;
+}
+.feedback-content:hover{
+    background-color: #C2EFD4;
 }
 .section{
     margin-top: 100px;
@@ -46,15 +51,23 @@
     width: 370px;
     height: 250px;
 }
+.section__content--middle{
+    background-color: #C2EFD4;
+}
+.footer__icon{
+    width: auto;
+}
+
 .login {
     border-color: #224F34;
     border-radius: 2px;
     color: #224F34;
 }
 .best-sell__button {
-    border: 1px solid #224F34;
+    border: 2px solid #224F34;
+    border-radius: 2px;
     pointer-events: none;
-    margin-top:50px;
+    margin-top:30px;
     color: #224F34;
 }
 .hero {
@@ -83,6 +96,9 @@ hr {
     font-size: 14px;
     line-height: 24px;
 }
+.footer-list{
+   line-height: 35px; 
+}
 @media (min-width: 300px) and (max-width: 576px) {
     .girl1 {
         width: 250px;
@@ -107,6 +123,7 @@ hr {
     margin-bottom: 70px;
     margin-top: 40px;
     background-color: #224F34 ;
+    border-radius: 2px;
 }
 .container-fluid{
     background-color: #224F34;
@@ -164,10 +181,10 @@ hr {
     background-color: white;
     color: #224F34;
     width: auto;
-    min-width: 85px;
-    height: 90px;
+    min-width: 90px;
+    height: 92px;
     margin-right: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 .exclusive-design,
 .designer-clothes {
