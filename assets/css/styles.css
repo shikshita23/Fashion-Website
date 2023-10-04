@@ -19,6 +19,9 @@
 .section-bg-blue{
     background-color: #d9d6f4;
 }
+.section-bg-light{
+    background-color: #eaf8f9;
+}
 .brand-title{
     line-height: 50px;
     font-size: x-large;
