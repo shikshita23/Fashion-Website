@@ -1,16 +1,56 @@
 .navbar-brand{
+   width: 20%;
+}
+.section-bg-primary{
+    background-color: #d6f4d8;
+}
+.section-bg-green{
+    background-color: #e3f4d6;
+}
+.section-bg-pink{
+    background-color: #f4d6f2;
+}
+.section-bg-purple{
+    background-color: #eceafa;
+}
+.section-bg-yellow{
+    background-color: #ecefc2;
+}
+.section-bg-blue{
+    background-color: #d9d6f4;
+}
+.brand-title{
     line-height: 50px;
     font-size: x-large;
     font-family: Rufina;
     color: #224F34;
 }
-
+.navbar-menu{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-menu__item{
+    width: 70%;
+}
+.navbar-login{
+    width: 30%;
+}
+a {
+    text-decoration: none;
+}
+.hr li{
+    padding-left: 0px;
+}
+.hr ul{
+    padding-left: 0px;
+}
 .arrow{
     width: 35px;
     height: 35px;
     color: #224F34;
     border-radius: 3px;
-    padding: 8px 10px 10px 10px;
+    padding: 6px 10px 10px 12px;
 }
 .arrow:hover{
     background-color:#C2EFD4 ;
@@ -18,9 +58,9 @@
 .feedback-content:hover{
     background-color: #C2EFD4;
 }
-.section{
-    margin-top: 100px;
-    margin-bottom: 70px;
+section{
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 .section__title {
     font-family: Roboto Slab;
@@ -48,7 +88,7 @@
     margin-bottom: 70px;
 }
 .section-content{
-    width: 370px;
+    width: 414px;
     height: 250px;
 }
 .section__content--middle{
@@ -57,34 +97,32 @@
 .footer__icon{
     width: auto;
 }
-
 .login {
     border-color: #224F34;
     border-radius: 2px;
     color: #224F34;
+    height: 35px;
 }
-.best-sell__button {
+.section__button {
     border: 2px solid #224F34;
     border-radius: 2px;
     pointer-events: none;
-    margin-top:30px;
     color: #224F34;
 }
 .hero {
     background-color: #C2EFD4;
 }
 .exclusive-design {
-    background-color: #C2EFD4;
     margin-top: 50px;
 }
-.bordercolor {
+.footer__section{
     border-color: #A3F3BE !important;
     width: fit-content;
 }
 hr {
     width: 80%;
 }
-.girl1 {
+.hero__image {
     width: 400px;
     height: 500px;
     border-radius: 100px 30px 100px 30px;
@@ -99,8 +137,11 @@ hr {
 .footer-list{
    line-height: 35px; 
 }
+.navbar-toggler {
+    font-size: 0.8rem;
+}
 @media (min-width: 300px) and (max-width: 576px) {
-    .girl1 {
+    .hero__image {
         width: 250px;
         height: 300px;
         border-radius: 70px 30px 70px 30px;
@@ -110,14 +151,19 @@ hr {
     font-size: 16px;
     font-weight: 500;
     color: #373737;
-    padding: 15px 30px 0px 40px;
+    padding: 15px 30px 0px 40px;  
+    margin-left: 35px;
+    margin-right: 45px;
+}
+.image__description-products {
+    font-size: 16px;
+    font-weight: 500;
+    color: #373737;
+    padding: 15px 25px 0px 25px; 
 }
 .exclusive-design__count {
     font-size: 28px;
     font-weight: 500;
-}
-.font-14 {
-    font-size: 14px;
 }
 .hero__button{
     margin-bottom: 70px;
@@ -127,27 +173,28 @@ hr {
 }
 .container-fluid{
     background-color: #224F34;
+    padding: 50px 72px 50px 90px;
 }
 .section__image1 {
     background-color: #93B9A2;
-    width: 330px;
+    width: 370px;
 }
 .section__image2{
     background-color: #A9D4BA;
-    width: 330px;
+    width: 370px;
 }
 .section__image3 {
     background-color: #CADCD0;
-    width: 330px;
+    width: 370px;
 }
 .designer-clothes__image1{
-    width: 340px;
-    height: 450px;
+    width: 380px;
+    height: 490px;
     background-color: #D3E2D7;
 }
 .designer-clothes__image2, .designer-clothes__image3{
-    width:340px;
-    height: 450px;
+    width:380px;
+    height: 490px;
 }
 .hero__description,
 .section__navigation {
@@ -162,7 +209,6 @@ hr {
     font-family: Rufina;
     font-size: 75px;
     color: #224F34;
-    margin-top: 120px;
     line-height: 100px;
 }
 .footer__content{
@@ -177,7 +223,7 @@ hr {
     width: 200px;
     height: 70px;
 }
-.box {
+.time-box {
     background-color: white;
     color: #224F34;
     width: auto;
@@ -186,9 +232,12 @@ hr {
     margin-right: 20px;
     margin-bottom: 25px;
 }
+div.time-box:last-of-type{
+    margin-right: 15px;
+}
 .exclusive-design,
 .designer-clothes {
-    margin-top: 170px;
+    margin-top: 140px;
 }
 .our-product__image1,
 .our-product__image2,
@@ -198,15 +247,46 @@ hr {
 .our-product__image6,
 .our-product__image7,
 .our-product__image8 {
-    width: 250px;
-    height: 280px;
+    width:260px;
+    height: 310px;
 }
 .footer_title{
     font-family: Roboto Slab;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 10px;
+}
+#mynavbar li{
+    font-size: 12px;
 }
 @media (min-width: 300px) and (max-width: 768px) {
+    .footer__button{
+        height: 30px;
+    }
+    .navbar-menu{
+        width: max-content;
+        margin-left: auto;
+    }
+    .navbar-toggler{
+        width: max-content;
+        margin-left: auto;
+    }
+    
+    .navbar-menu li{
+        font-size: 10px;
+    }
+    .navbar-login{
+        width:55% ;
+    }
+    .exclusive-design__count {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .section-content{
+        width: 380px;
+        height: 220px;
+        margin-left: 20px;
+    }
     .hero__title {
         font-size: 35px;
         line-height: 50px;
@@ -232,7 +312,7 @@ hr {
     margin-bottom: 30px;
    }
     .section__description{
-        font-size: 11px;
+        font-size: 13px;
         line-height: 25px;
         margin-top: 33px;
     }
@@ -257,27 +337,20 @@ hr {
         text-align: center;
     }
     .section__navigation{
-        font-size: 7px;
-        line-height: 20px;
+        font-size: 15px;
+        line-height: 45px;
     }
     .exclusive-design__title{
         font-size: 30px;
     }
     .exclusive-design__description{
-        font-size:11px ;
+        font-size:15px ;
     }
-    .exclusive-design__image{
-        width: 290px;
-        height:320px ;
-    } 
     .image__description {
         font-size: 11px;
         padding-bottom: 30px;
         padding-left: 5px;
         padding-right: 5px;
-    }
-    .exclusive-design__number {
-        font-size: 22px;
     }
     .best-sell p {
         font-size: 12px;
@@ -314,7 +387,7 @@ hr {
         width: 150px;
         height: 50px;
     }
-    .box {
+    .time-box {
         min-width: 70px;
         height: 80px;
         margin-right: 20px;
@@ -322,6 +395,9 @@ hr {
     }
     .exclusive-design{
         margin-top:90px;
+        width: auto;
+        padding-right: 30px;
+        justify-content: center;
     }
 .our-product__image1,
 .our-product__image2,
@@ -341,8 +417,25 @@ hr {
     font-size: 14px;
     font-weight: 400;
 }
+.footer__section{
+    width: 176px;
 }
-@media (min-width: 768px) and (max-width: 992px) {
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .footer__email{
+        width: 150px;
+    }
+    .navbar-menu{
+         width: max-content;
+         margin-left: auto;
+    }
+    .navbar-toggler{
+        width: max-content;
+        margin-left: auto;
+    }
+    .navbar-login{
+        width:55% ;
+    }
     .hero__title {
         font-size: 50px;
         line-height: 60px;
@@ -368,6 +461,7 @@ hr {
     }
     .exclusive-design{
         margin-top: 100px;
+        padding-right: 30px;
     }
     .section__description{
         font-size: 15px;
@@ -392,10 +486,8 @@ hr {
         font-size: 15px;
         line-height: 25px;
     }
-    
     .exclusive-design__title{
         font-size: 40px;
-    
     }
     .exclusive-design__description{
         font-size:14px ;
@@ -412,11 +504,14 @@ hr {
     .designer-clothes__image1, .designer-clothes__image2, .designer-clothes__image3{
         width:310px;
         height: 375px;
-    }  
+    } 
 }
 @media (min-width:992px) and (max-width:1200px){
+    .footer__button{
+        height: 25px;
+    }
     .footer__email{
-        width: 130px;
+        width: 120px;
         font-size: 14px;
     }
     .footer__button{
@@ -444,6 +539,9 @@ hr {
 }
 @media (min-width:1200px) and (max-width:1400px)
 {
+    .footer__email{
+        width:160px;
+    }
     .section__image1 {
         background-color: #93B9A2;
         width: 280px;
@@ -474,9 +572,6 @@ li {
     padding-left: 20px;
     padding-right: 20px;
 }
-a {
-    text-decoration: none;
-}
 .our-product__image8 {
     background-color: #DDECE2;
 }
@@ -485,8 +580,9 @@ a {
     max-height: 500px;
 }
 .vertical-line {
-    border-left: 1px solid #454545;
-    padding-right: 15px;
+    width: 1px;
+    background-color: black;
+    margin:0 16px 0 16px;
 }
 .our-product {
     margin-top: 70px;
