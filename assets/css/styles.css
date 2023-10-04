@@ -42,12 +42,6 @@
 a {
     text-decoration: none;
 }
-.hr li{
-    padding-left: 0px;
-}
-.hr ul{
-    padding-left: 0px;
-}
 .arrow{
     width: 35px;
     height: 35px;
@@ -63,7 +57,7 @@ a {
 }
 section{
     padding-top: 100px;
-    padding-bottom: 70px;
+    padding-bottom: 90px;
 }
 .section__title {
     font-family: Roboto Slab;
@@ -75,7 +69,7 @@ section{
     color: #224F34;
     font-size: 18px;
     font-weight: 500;
-    margin-top: 15px;
+    margin-top: 20px;
     line-height: 30px;
 }
 .exclusive-design__description{
@@ -87,18 +81,12 @@ section{
     margin-bottom: 40px;
     line-height: 30px;
 }
-.exclusive-design__button{
-    margin-bottom: 70px;
-}
 .section-content{
     width: 414px;
     height: 250px;
 }
 .section__content--middle{
     background-color: #C2EFD4;
-}
-.footer__icon{
-    width: auto;
 }
 .login {
     border-color: #224F34;
@@ -115,15 +103,9 @@ section{
 .hero {
     background-color: #C2EFD4;
 }
-.exclusive-design {
-    margin-top: 50px;
-}
 .footer__section{
     border-color: #A3F3BE !important;
     width: fit-content;
-}
-hr {
-    width: 80%;
 }
 .hero__image {
     width: 400px;
@@ -136,9 +118,6 @@ hr {
     color: #6F6F6F;
     font-size: 14px;
     line-height: 24px;
-}
-.footer-list{
-   line-height: 35px; 
 }
 .navbar-toggler {
     font-size: 0.8rem;
@@ -155,8 +134,6 @@ hr {
     font-weight: 500;
     color: #373737;
     padding: 15px 30px 0px 40px;  
-    margin-left: 35px;
-    margin-right: 45px;
 }
 .image__description-products {
     font-size: 16px;
@@ -174,9 +151,9 @@ hr {
     background-color: #224F34 ;
     border-radius: 2px;
 }
-.container-fluid{
+.footer{
     background-color: #224F34;
-    padding: 50px 72px 50px 90px;
+    padding: 70px 72px 50px 90px;
 }
 .section__image1 {
     background-color: #93B9A2;
@@ -205,7 +182,7 @@ hr {
     font-size: 20px;
     line-height: 50px;
 }
-.section__navigation li{
+.section__navigation a{
     color: #224F34;
 }
 .hero__title {
@@ -238,10 +215,6 @@ hr {
 div.time-box:last-of-type{
     margin-right: 15px;
 }
-.exclusive-design,
-.designer-clothes {
-    margin-top: 140px;
-}
 .our-product__image1,
 .our-product__image2,
 .our-product__image3,
@@ -266,6 +239,9 @@ div.time-box:last-of-type{
     .footer__button{
         height: 30px;
     }
+    .hero__image{
+        margin-top: 50px;
+    }
     .navbar-menu{
         width: max-content;
         margin-left: auto;
@@ -274,7 +250,6 @@ div.time-box:last-of-type{
         width: max-content;
         margin-left: auto;
     }
-    
     .navbar-menu li{
         font-size: 10px;
     }
@@ -286,9 +261,8 @@ div.time-box:last-of-type{
         font-weight: 500;
     }
     .section-content{
-        width: 380px;
+        width: 275px;
         height: 220px;
-        margin-left: 20px;
     }
     .hero__title {
         font-size: 35px;
@@ -311,13 +285,13 @@ div.time-box:last-of-type{
         width:340px;
         height: 450px;
     }
-   .hero__button{
-    margin-bottom: 30px;
-   }
+    .hero__button{
+        margin-bottom: 30px;
+    }
     .section__description{
         font-size: 13px;
         line-height: 25px;
-        margin-top: 33px;
+        margin-top: 25px;
     }
     .section__image1  {
         width: 200px;
@@ -347,13 +321,13 @@ div.time-box:last-of-type{
         font-size: 30px;
     }
     .exclusive-design__description{
-        font-size:15px ;
+        font-size:13px ;
     }
     .image__description {
         font-size: 11px;
-        padding-bottom: 30px;
         padding-left: 5px;
         padding-right: 5px;
+        padding-top: 7px;
     }
     .best-sell p {
         font-size: 12px;
@@ -390,6 +364,10 @@ div.time-box:last-of-type{
         width: 150px;
         height: 50px;
     }
+    section{
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
     .time-box {
         min-width: 70px;
         height: 80px;
@@ -397,7 +375,6 @@ div.time-box:last-of-type{
         margin-bottom: 40px;
     }
     .exclusive-design{
-        margin-top:90px;
         width: auto;
         padding-right: 30px;
         justify-content: center;
@@ -425,6 +402,9 @@ div.time-box:last-of-type{
 }
 }
 @media (min-width: 769px) and (max-width: 992px) {
+    .hero__button{
+        margin-bottom: 0px;
+    }
     .footer__email{
         width: 150px;
     }
@@ -498,6 +478,7 @@ div.time-box:last-of-type{
     .image__description{
         font-size:14px ;
         padding-bottom: 60px;
+        padding-top:7px;
     }
     .designer-clothes__image1{
         width: 340px;
@@ -512,6 +493,9 @@ div.time-box:last-of-type{
 @media (min-width:992px) and (max-width:1200px){
     .footer__button{
         height: 25px;
+    }
+    .hero__button{
+        margin-bottom: 0px;
     }
     .footer__email{
         width: 120px;
@@ -539,6 +523,10 @@ div.time-box:last-of-type{
     .best-selling__description {
         font-size: 17px;
     }
+    .image__description{
+        padding-bottom: 90px;
+        padding-top:10px
+    }
 }
 @media (min-width:1200px) and (max-width:1400px)
 {
@@ -556,6 +544,10 @@ div.time-box:last-of-type{
     .section__image3 {
         background-color: #CADCD0;
         width: 280px;
+    }
+    .image__description{
+        padding-bottom:80px;
+        padding-top: 10px;
     }
 }
 body {
@@ -594,6 +586,6 @@ li {
     font-family: Roboto Serif;
     color: #224F34;
 }
-.footer-list {
+.footer-list a{
     color: #C2EFD4;
 }
