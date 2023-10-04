@@ -39,7 +39,7 @@
 .navbar-login{
     width: 30%;
 }
-a {
+a{
     text-decoration: none;
 }
 .arrow{
@@ -156,8 +156,6 @@ section{
 }
 .footer{
     background-color: #224F34;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 .section__image1 {
     background-color: #93B9A2;
@@ -194,9 +192,6 @@ section{
     font-size: 75px;
     color: #224F34;
     line-height: 100px;
-}
-.footer__content{
-    margin-bottom: 100px;
 }
 .exclusive-design__title {
     font-family: Roboto Slab;
