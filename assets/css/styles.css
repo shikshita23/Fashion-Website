@@ -128,6 +128,9 @@ section{
         height: 300px;
         border-radius: 70px 30px 70px 30px;
     }
+    .footer{
+        padding-left: 20px;
+    }
 }
 .image__description {
     font-size: 16px;
@@ -153,7 +156,8 @@ section{
 }
 .footer{
     background-color: #224F34;
-    padding: 70px 72px 50px 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .section__image1 {
     background-color: #93B9A2;
@@ -261,7 +265,7 @@ div.time-box:last-of-type{
         font-weight: 500;
     }
     .section-content{
-        width: 275px;
+        width: 288px;
         height: 220px;
     }
     .hero__title {
