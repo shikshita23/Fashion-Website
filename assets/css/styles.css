@@ -22,6 +22,9 @@
 .section-bg-light{
     background-color: #eaf8f9;
 }
+.navbar-bg-dark{
+    background-color: #6BC785;
+}
 .brand-title{
     line-height: 50px;
     font-size: x-large;
