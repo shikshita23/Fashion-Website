@@ -23,7 +23,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/ccbac6e5e0.js" crossorigin="anonymous"></script>
-</head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Slick Slider CSS and JavaScript files -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    </head>
 <body>
     <div class="hero">
         <div class="container pt-4">
@@ -304,29 +309,66 @@
         <section class="section-bg-green">
             <div class="container">
                 <div class="mb-4  text-center section__title ">Feedback Corner </div>
-                <div class="row d-flex justify-content-lg-between justify-content-center pt-5">
-                    <div class=" col-lg-3 col-sm-12 mt-sm-5 mt-2 shadow-sm p-3 rounded ms-lg-3 ms-0 section-content mb-3">
+                <div class="row d-flex justify-content-lg-between justify-content-center pt-5 section-content-carousel">
+                    <div class=" col-lg-3 col-sm-12 mt-2 shadow-sm p-3 rounded section-content me-2 ms-2">
                         <h1>"</h1>
                         <h5 class="section-content__title">Emily Wilson</h5>
                         <div class="section-content__description">The customer experience was exceptional from start to finish. The website is user-friendly, the checkout process was smooth, and the clothes I ordered fit perfectly. I'm beyond satisfied!
                         </div>
                     </div>
-                    <div
-                        class="col-lg-3 col-sm-12 mt-sm-5 mt-2 shadow-sm p-3 rounded section-content section__content--middle  mb-3">
+                    <div class="col-lg-3 col-sm-12 mt-2 shadow-sm p-3 rounded section-content mb-3  me-2 ms-2">
                         <h1>"</h1>
                         <h5 class="section-content__title">Sarah Thompson</h5>
                         <div class="section-content__description">I absolutely love the quality and style of the clothing I purchased from this website. customer service was outstanding, and I received my order quickly.Highly recommended!</div>
                     </div>
-                    <div class="col-lg-3 col-sm-12 mt-sm-5 mt-2 shadow-sm p-3 rounded me-lg-3 me-0 section-content mb-3 ms-lg-3 ms-xxl-0">
+                    <div class="col-lg-3 col-sm-12 mt-2 shadow-sm p-3 rounded  section-content mb-3  me-2 ms-2">
                         <h1>"</h1>
                         <h5 class="section-content__title">Olivia Martinez</h5>
                         <div class="section-content__description ">I had a great experience shopping on this website. The clothes I bought are fashionable and comfortable.Highly satisfied!</div>
                     </div>
+                    <div class="col-lg-3 col-sm-12 mt-2 shadow-sm p-3 rounded section-content mb-3  me-2 ms-2">
+                        <h1>"</h1>
+                        <h5 class="section-content__title">Helllo</h5>
+                        <div class="section-content__description ">I had a great experience shopping on this website. The clothes I bought are fashionable and comfortable.Highly satisfied!</div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 mt-2 shadow-sm p-3 rounded section-content mb-3  me-2 ms-2">
+                        <h1>"</h1>
+                        <h5 class="section-content__title">Mark</h5>
+                        <div class="section-content__description ">I had a great experience shopping on this website. The clothes I bought are fashionable and comfortable.Highly satisfied!</div>
+                    </div>
                 </div>
-                <div class="d-flex justify-content-center mt-5 ">
-                    <div class="arrow me-4 shadow-lg"><i class="fas fa-sharp fa-solid fa-chevron-left"></i></div>
-                    <div class="arrow  shadow-lg "><i class="fas fa-sharp fa-solid fa-chevron-right "></i></div>
-                </div>
+                <script>
+                    $(document).ready(function(){
+                        $('.section-content-carousel').slick({
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            autoplay: false,
+                            centerMode:true,
+                            centerPadding: '0px',
+                            prevArrow: '<div class="prev-arrow me-4 shadow-lg "><i class="fas fa-sharp fa-solid fa-chevron-left"></i></div>',
+                            nextArrow: '<div class="next-arrow  shadow-lg "><i class="fas fa-sharp fa-solid fa-chevron-right "></i></div>',
+                            responsive:[
+                                {
+                                    breakpoint:1000,
+                                    settings:{
+                                        slidesToShow:2,
+                                        slideToScroll:1,
+                                        centerPadding: '0px',
+                                    }
+                                },
+                                {
+                                    breakpoint:600,
+                                    settings:{
+                                        slidesToShow:1,
+                                        slideToScroll:1,
+                                        centerPadding: '0px',
+                                    }
+                                },
+                            ]
+                        });
+                    });
+                </script>
+                
             </div>
         </section>
         <footer class="footer text-white py-5">
